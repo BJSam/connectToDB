@@ -1,7 +1,5 @@
-import mongoose from 'mongoose'
-import bodyParser from 'body-parser'
-import express from 'express'
-
+const bodyParser = require('body-parser');
+const express = require("express");
 const app = express()
 const MongoUrl = process.mongodbUrlCluster0;
 app.use(bodyParser.json())
